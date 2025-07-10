@@ -3,7 +3,7 @@ import pprint
 import re  # noqa: F401
 
 import six
-from schema.churchillvcfevent.ChurchillVCFEventItem import ChurchillVCFEventItem  # noqa: F401,E501
+from churchill3_trigger.schema.churchillvcfevent.ChurchillVCFEventItem import ChurchillVCFEventItem  # noqa: F401,E501
 
 
 class ChurchillVCFEvent(object):

@@ -5,7 +5,7 @@ import re  # noqa: F401
 import six
 import datetime
 from dateutil.parser import parse as parse_datetime
-from schema.churchillvcfevent.ChurchillVCFEvent import ChurchillVCFEvent  # noqa: F401,E501
+from churchill3_trigger.schema.churchillvcfevent.ChurchillVCFEvent import ChurchillVCFEvent  # noqa: F401,E501
 
 
 class AWSEvent(object):
